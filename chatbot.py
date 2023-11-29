@@ -1,5 +1,7 @@
 import openai
+# import os
 from config import API_KEY
+# API_KEY = os.environ.get("API_KEY")
 openai.api_key = API_KEY
 
 def generar_respuesta(pregunta):
